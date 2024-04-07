@@ -26,24 +26,58 @@
           background-color:gold;
           margin-left:100px;
       }
-   </style>
+    font-family{
+    Arial,sans-serif;
+   }
+   .search-container{
+      text-align:center;
+      margin-top:10px;
+    }
+   input[type="text"]{
+    padding:10px;
+    width:350px;
+    border-radius:50px;
+    border:1px solid black;
+    margin-left:855px;
+   }
+ button{
+  padding:10px 20px;
+  bakground-color:black;
+  color:black;
+  border: 1px solid black;
+  border-radius:5px;
+  cursor:pointer;
+  }
+  button:hover{
+   background-color:blue;
+  }
+  </style>
      </head>
+   
    <body style ="background-color:gray;">
    <h1 style ="background-color :yellow;color:red;text-align:center;">Fashion Feet</h1>
+
+   <div class="search-container">
+    <form actionn="search.php" method="GET">
+    <input type="text" name="quary" placeholder="Search...">
+    <button type="submit">Search</button>
+    </form>
+   </div>
+    
    <table>
      <tr>
        <td>  <img src="C:\Users\SM COMPUTERS\Desktop\project_image\logo.png"></td>
        <td>
           <div id ="Box_1">
           <a href="men.html">
-          <p style=text-align:center>MEN'S COLLECTION</p></div></a>
+          <p style=text-align:center;color:black;><b>MEN'S COLLECTION</p></div></a>
           <div id ="Box_2">
           <a href="women.html">
-          <p style=text-align:center>WOMEN'S COLLECTION</p></div>
+          <p style=text-align:center;color:black;>WOMEN'S COLLECTION</p></div>
           <div id ="Box_3">
           <a href="kids.html">
-          <p style=text-align:center>KIDS' COLLECTION</p></div></td></a>
-          
+          <p style=text-align:center;color:black;>KIDS' COLLECTION</p></div></td></a>
+          </b>
      </tr>
   </table>
    </body>
